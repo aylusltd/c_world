@@ -1,0 +1,471 @@
+INITIALIZING
+APPENDING
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: undefined
+length: 1
+
+Child: 
+
+PRETTY PRINT
+value: 2
+left: undefined
+right: undefined
+length: 1
+
+added right
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: 3
+length: 2
+
+Child: 
+
+PRETTY PRINT
+value: 3
+left: undefined
+right: undefined
+length: 1
+
+passed right
+
+PARENT:
+
+PRETTY PRINT
+value: 3
+left: undefined
+right: undefined
+length: 1
+
+Child: 
+
+PRETTY PRINT
+value: 3
+left: undefined
+right: undefined
+length: 1
+
+added left
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: 4
+length: 2
+
+Child: 
+
+PRETTY PRINT
+value: 4
+left: undefined
+right: undefined
+length: 1
+
+passed right
+
+PARENT:
+
+PRETTY PRINT
+value: 4
+left: undefined
+right: undefined
+length: 1
+
+Child: 
+
+PRETTY PRINT
+value: 4
+left: undefined
+right: undefined
+length: 1
+
+added left
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: 5
+length: 2
+
+Child: 
+
+PRETTY PRINT
+value: 5
+left: undefined
+right: undefined
+length: 1
+
+passed right
+
+PARENT:
+
+PRETTY PRINT
+value: 5
+left: undefined
+right: undefined
+length: 1
+
+Child: 
+
+PRETTY PRINT
+value: 5
+left: undefined
+right: undefined
+length: 1
+
+added left
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: 6
+length: 2
+
+Child: 
+
+PRETTY PRINT
+value: 6
+left: undefined
+right: undefined
+length: 1
+
+passed right
+
+PARENT:
+
+PRETTY PRINT
+value: 6
+left: undefined
+right: undefined
+length: 1
+
+Child: 
+
+PRETTY PRINT
+value: 6
+left: undefined
+right: undefined
+length: 1
+
+added left
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: 7
+length: 2
+
+Child: 
+
+PRETTY PRINT
+value: 7
+left: undefined
+right: undefined
+length: 1
+
+passed right
+
+PARENT:
+
+PRETTY PRINT
+value: 7
+left: undefined
+right: undefined
+length: 1
+
+Child: 
+
+PRETTY PRINT
+value: 7
+left: undefined
+right: undefined
+length: 1
+
+added left
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: 8
+length: 2
+
+Child: 
+
+PRETTY PRINT
+value: 8
+left: undefined
+right: undefined
+length: 1
+
+passed right
+
+PARENT:
+
+PRETTY PRINT
+value: 8
+left: undefined
+right: undefined
+length: 1
+
+Child: 
+
+PRETTY PRINT
+value: 8
+left: undefined
+right: undefined
+length: 1
+
+added left
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: 9
+length: 2
+
+Child: 
+
+PRETTY PRINT
+value: 9
+left: undefined
+right: undefined
+length: 1
+
+passed right
+
+PARENT:
+
+PRETTY PRINT
+value: 9
+left: undefined
+right: undefined
+length: 1
+
+Child: 
+
+PRETTY PRINT
+value: 9
+left: undefined
+right: undefined
+length: 1
+
+added left
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: 10
+length: 2
+
+Child: 
+
+PRETTY PRINT
+value: 10
+left: undefined
+right: undefined
+length: 1
+
+passed right
+
+PARENT:
+
+PRETTY PRINT
+value: 10
+left: undefined
+right: undefined
+length: 1
+
+Child: 
+
+PRETTY PRINT
+value: 10
+left: undefined
+right: undefined
+length: 1
+
+added left
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: 10
+length: 2
+
+Child: 
+
+PRETTY PRINT
+value: 10
+left: undefined
+right: undefined
+length: 1
+
+passed right
+
+PARENT:
+
+PRETTY PRINT
+value: 10
+left: undefined
+right: undefined
+length: 1
+
+Child: 
+
+PRETTY PRINT
+value: 10
+left: undefined
+right: undefined
+length: 1
+
+added left
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: undefined
+length: 2
+
+Child: 
+
+PRETTY PRINT
+value: 0
+left: undefined
+right: undefined
+length: 0
+
+added left
+got a zero value kid
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: undefined
+length: 3
+
+Child: 
+
+PRETTY PRINT
+value: 0
+left: undefined
+right: undefined
+length: 0
+
+passed left
+
+All out of love
+PARENT:
+
+PRETTY PRINT
+value: 0
+left: undefined
+right: undefined
+length: 0
+
+Child: 
+
+PRETTY PRINT
+value: 0
+left: undefined
+right: undefined
+length: 0
+
+added left
+got a zero value kid
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: undefined
+length: 3
+
+Child: 
+
+PRETTY PRINT
+value: 0
+left: undefined
+right: undefined
+length: 0
+
+passed left
+
+All out of love
+PARENT:
+
+PRETTY PRINT
+value: 0
+left: undefined
+right: undefined
+length: 0
+
+Child: 
+
+PRETTY PRINT
+value: 0
+left: undefined
+right: undefined
+length: 0
+
+added left
+got a zero value kid
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: undefined
+right: undefined
+length: 3
+
+Child: 
+
+PRETTY PRINT
+value: 0
+left: undefined
+right: undefined
+length: 0
+
+passed left
+
+All out of love
+PARENT:
+
+PRETTY PRINT
+value: 0
+left: undefined
+right: undefined
+length: 0
+
+Child: 
+
+PRETTY PRINT
+value: 0
+left: undefined
+right: undefined
+length: 0
+
+added left
+PARENT:
+
+PRETTY PRINT
+value: 1
+left: 1
+right: 1
+length: 3
+
+Child: 
