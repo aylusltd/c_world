@@ -7,7 +7,7 @@ Note: None of these files are any good. Some do what they say on the tin, none h
 
 That being said, there's a handful of fun whatsits I got bored and put together.
 
-`encryption.cpp` is a simple example of SP encryption. Not meant as a competitor to AES, more just a "Hello World" of encryption. -It's techy and doesn't always work, but it worked on the image last I tried it, despite eating the text file. Well, it's more of a grazer, it only ate the last three lines.- Well, now it works
+`encryption.cpp` is a simple example of SP encryption. Not meant as a competitor to AES, more just a "Hello World" of encryption. ~~It's techy and doesn't always work, but it worked on the image last I tried it, despite eating the text file. Well, it's more of a grazer, it only ate the last three lines.~~ Well, now it works
 
 `file_mod.cpp` does what is says on the tin. It's just an example of how to file reading and writing, because I'd forgotten how to do that since I haven't looked at C++ since high school.
 
