@@ -76,7 +76,7 @@ vector<BYTE> unshuffle(std::vector<BYTE> input, BYTE distance){
     
     // Unrotate
     for(i=0; i<j; i++){
-        t=i<distance?j-distance+i+1:(i-distance)%j;
+        t=i<distance?j-distance+i:(i-distance)%j;
         temp[t]=input[i];
     }
     input=temp;
@@ -95,14 +95,40 @@ vector<BYTE> encrypt(vector<BYTE> input, vector<BYTE> key){
     err("input length: "+to_string(j));
     err("key length: "+to_string(k));
     unsigned long int t;
+    char test;
+    char prev;
+    bool dump=false;
+    // cout<<"Modifying"<<endl;
 
     // Modify
     for(unsigned long int i=0; i<j; i++){
+        // cout<<i<<endl;
+        prev=input[i];
         input[i]+= key[i%k];
+        input[i] ^= key[i%k];
+        test=input[i];
         // err(input[i]);
         // err(key[i%k]);
         // err(to_string(i%k));
         // err(" ");
+        // if(i > 195 || dump == true){
+        if(false){
+            dump |= true;
+            cout<<endl<<"Output: "<<test<<" ";
+            cout.operator<<(test);
+            cout<<endl;
+            // cout<<"Correct: "<<v[i]<<" "<<(uint) v[i]<<endl;
+            cout<<"Input: "<<prev<<" ";
+            cout.operator<<(prev);
+            cout<<endl;
+            cout<<"Key: "<<key[i%k]<<" ";
+            cout.operator<<(key[i%k]);
+            cout<<endl;
+            cout<<"Index: "<<i<<endl;
+            cout<<i%k<<endl;
+            cout<<k<<endl;
+            cout<<endl;
+        }
     }
     // cerr<<endl;
 
@@ -119,13 +145,40 @@ vector<BYTE> decrypt(std::vector<BYTE> input, std::vector<BYTE> key){
     err("j: " + to_string(j));
     err("k: " + to_string(k));
     unsigned long int t;
+    char test;
+    char prev;
+    bool dump=false;
+    std::vector<BYTE> v = f::readFile("example.txt");
 
     // unshuffle
     input=unshuffle(input,calcDistance(key));
 
     // unmutate
     for(unsigned long int i=0; i<j; i++){
+        prev=input[i];
+        input[i] ^= key[i%k];
         input[i]-= key[i%k];
+        test=input[i];
+        // if(test == '9' || dump == true){
+        if(false){
+            dump |= true;
+            cout<<endl<<"Output: "<<test<<" ";
+            cout.operator<<(test);
+            cout<<endl;
+            cout<<"Correct: "<<v[i]<<" ";
+            cout.operator<<(v[i]);
+            cout<<endl;
+            cout<<"Input: "<<prev<<" ";
+            cout.operator<<(prev);
+            cout<<endl;
+            cout<<"Key: "<<key[i%k]<<" ";
+            cout.operator<<(key[i%k]);
+            cout<<endl;
+            cout<<"Index: "<<i<<endl;
+            cout<<i%k<<endl;
+            cout<<k<<endl;
+            cout<<endl;
+        }
         // err(key[i%k]);
         // err(to_string(i%k));
         // err(" ");
@@ -152,7 +205,7 @@ int main(int argc, char *argv[]){
     const string SFLAG="-s";
     const string ALT_TFLAG="-o";
     const string RFLAG= "-r";
-    int rounds = 8;
+    int rounds = 1;
 
     bool encrypting = false;
 

@@ -5,7 +5,7 @@
 #include <vector>
 using namespace std;
 
-typedef int8_t  BYTE;
+typedef uint8_t  BYTE;
 namespace f{
   vector<BYTE> makeBytes(string input){
       char holder;
