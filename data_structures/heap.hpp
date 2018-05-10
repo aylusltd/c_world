@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
-const bool DEBUG_MODE=false;
 
 // #define NULL nullptr
 namespace heap{
+    const bool DEBUG_MODE=false;
     template <class T>
     class Heap{
     private:
@@ -67,7 +67,23 @@ namespace heap{
             }
 
         }
-        void heapifyUp(){}
+        void heapifyUp(int i){
+            T me, parentVal;
+            int parentIndex;
+            logger("Heaping Up");
+            while(hasParent(i)){
+                me=list[i];
+                parentVal=parent(i);
+                if(me<parentVal){
+                    parentIndex=getParentIndex(i);
+                    swap(i,parentIndex);
+                    logger("Swapped");
+                    i=parentIndex;
+                } else {
+                    break;
+                }
+            }
+        }
 
     public:
         Heap(T a){list[0]=a;}
@@ -91,7 +107,9 @@ namespace heap{
             logger("Has Capacity");
             list[size]=newVal;
             logger("Value set");
-
+            logger(std::to_string(newVal));
+            heapifyUp(size);
+            logger("Heapified");
             size++;
         }
         
